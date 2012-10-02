@@ -1,4 +1,11 @@
-# Puppet icu4c for Boxen
+# icu4c Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `boxen`
+
+## Usage
+
+```puppet
+include icu4c
+```

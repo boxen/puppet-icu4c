@@ -6,7 +6,7 @@ class icu4c {
   # It's keg-only by default.
 
   exec { 'brew link icu4c':
-    creates => "${github::config::home}/homebrew/bin/icu-config",
+    creates => "${boxen::config::home}/homebrew/bin/icu-config",
     require => Package['icu4c']
   }
 }
