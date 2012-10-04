@@ -1,4 +1,6 @@
 class icu4c {
+  include boxen::config
+
   package { 'icu4c':
     ensure => latest
   }
