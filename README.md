@@ -9,3 +9,9 @@ Requires the following boxen modules:
 ```puppet
 include icu4c
 ```
+
+## Developing
+
+Write code.
+
+Run `script/cibuild`.
