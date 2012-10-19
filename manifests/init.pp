@@ -14,7 +14,6 @@ class icu4c {
 
   exec { 'brew link icu4c':
     creates     => "${boxen::config::home}/homebrew/bin/icu-config",
-    environment => [ "HOME='/Users/${::luser}'" ],
     require     => Package['icu4c']
   }
 }
