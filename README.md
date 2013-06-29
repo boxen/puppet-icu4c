@@ -1,5 +1,7 @@
 # icu4c Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/boxen/puppet-icu4c.png?branch=master)](https://travis-ci.org/boxen/puppet-icu4c)
+
 ## Usage
 
 ```puppet
