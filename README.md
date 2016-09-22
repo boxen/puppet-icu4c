@@ -1,21 +1,7 @@
 # icu4c Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/boxen/puppet-icu4c.png?branch=master)](https://travis-ci.org/boxen/puppet-icu4c)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include icu4c
-```
-
-## Required Puppet Modules
-
-* boxen
-* homebrew
-* stdlib
-
-## Developing
-
-Write code.
-
-Run `script/cibuild`.
+[1]: https://caskroom.github.io/
+[2]: https://git.io/v6NlB
